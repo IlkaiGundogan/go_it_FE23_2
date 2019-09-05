@@ -1,0 +1,184 @@
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url("fonts/Montserrat/montserrat.woff2");
+  font-family: "Droid Serif", italic;
+  src: url("fonts/droidserif/droidserifitalic.woff2");
+  font-family: "Roboto Slab", serif;
+  src: url("fonts/robotoslab/robotoslabregular.woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.navigation {
+  width: 940px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.menu {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  list-style: none;
+  font-weight: 600;
+  width: 500px;
+}
+
+.menu a {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  list-style: none;
+  margin-right: 30px;
+}
+
+.menu a:not(:last-child) {
+  margin-right: 30px;
+}
+.menu a:hover {
+  color: #fed136;
+}
+
+h2,
+h5 {
+  text-align: center;
+}
+
+.title-block {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 40px;
+  margin: 120px 0px 0px;
+}
+
+.sub-title {
+  font-family: "Droid Serif", italic;
+  font-size: 16px;
+  font-style: italic;
+  color: #767676;
+  margin-bottom: 80px;
+}
+
+.service-list {
+  width: 940px;
+  text-decoration: none;
+  list-style: none;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 120px;
+}
+.bottom-part-contact {
+  background: #272727;
+  background-image: url(img/MapImage.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  padding: 115px 0px;
+}
+.white {
+  color: #ffffff;
+  margin: 0;
+}
+
+.service-offer {
+  width: 290px;
+  height: 230px;
+  justify-content: center;
+  text-align: center;
+}
+.service-offer img {
+  margin: 0 auto;
+  display: block;
+  width: 72px;
+  height: 72px;
+}
+.name-service {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.discript {
+  font-family: "Roboto Slab", serif;
+  color: #767676;
+  line-height: 1.2;
+  padding: 0px 5px;
+  font-size: 16px;
+}
+
+#title-profile {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  display: block;
+  padding-top: 110px;
+  margin: 0 auto;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.profile {
+  width: 940px;
+  height: auto;
+  margin: 0 auto;
+}
+.form {
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  text-transform: uppercase;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  height: 215px;
+  padding-bottom: 30px;
+  margin: 0 auto;
+}
+.place-input {
+  width: 455px;
+}
+
+input[type="text"] {
+  font-weight: 700;
+  color: #bababa;
+  width: 431px;
+  text-transform: uppercase;
+  padding-left: 20px;
+  height: 50px;
+  margin-right: 30px;
+}
+input[type="text"]:focus{border: 3px solid #00ff2a;
+}
+textarea {
+  font-weight: 700;
+  color: #bababa;
+  position: absolute;
+  width: 431px;
+  text-transform: uppercase;
+  padding-left: 20px;
+  padding-top: 20px;
+  height: 191px;
+  right: 0;
+}
+textarea:focus {
+    border: 3px solid #00ff2a;
+}
+button {
+  display: block;
+  text-transform: uppercase;
+  width: 240px;
+  height: 70px;
+  color: #ffffff;
+  font-size: 18px;
+  background-color: #fed136;
+  text-align: center;
+  margin: 0 auto;
+  border: none;
+}
