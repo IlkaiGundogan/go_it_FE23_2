@@ -1,193 +1,84 @@
-html {
-  box-sizing: border-box;
+
+header {
+    width: 680px;
+    margin: auto;
+    padding-top: 75px;
+}
+.main-block, .navigation {
+    font-size: 0;
+    width: 900px;
+    margin: 0 auto;
 }
 
-a {
-  list-style: none;
-  text-decoration: none;
+h3,h4 {
+    margin: 0;
+    margin-top: 30px;
+}
+.topmenu :hover {
+    color: aqua;
+}
+ul {
+    font-size: 0;
+}
+ul.topmenu li {
+    font-family: 'Playfair Display', serif;  
+    display: inline;
+    margin: 0 auto;
+    font-size: 14px;
+    text-transform: uppercase;
+    
+}
+ul.topmenu li:not(:last-child) {
+    margin-right: 120px;
+
+}
+.theme {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #b4ad9e;
 }
 
-h2,
-h3,
-h4,
-h5 {
-  text-align: center;
+.sign {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: #626262;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+
+.block {
+    display: inline-block;
+    width: 420px;
+    vertical-align: top;
+    margin-right: 55px;
+    margin-top: 100px;
 }
-.header {
-  background: url(img/Main_background.png);
-  background-size: auto 100%;
-  background-color: black;
-  background-repeat: no-repeat;
-  background-position: center;
-  color: #ffffff;
-  width: 320px;
-  height: 520px;
-  margin: 0 auto;
-}
-.navigation {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  width: 320px;
-  height: 195px;
-  align-items: center;
-  margin: 0 auto;
-}
-#logo {
-  position: absolute;
-  letter-spacing: 2px;
-  bottom: 0;
-  font-size: 20px;
-  color: #ffffff;
-}
-.registration {
-  top: 30px;
-  position: absolute;
-  width: 180px;
-  height: 40px;
-}
-.login {
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  color: #ffffff;
-  padding: 9px 15px;
-  width: 90px;
-  height: 40px;
-  background-color: transparent;
-  border-radius: 90px;
-  border: 2px solid rgba(255, 255, 255, 0);
-}
-a.login:hover,
-:focus {
-  border: 2px solid rgba(255, 255, 255, 1);
-}
-.holidaydream {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  display: block;
-  width: 300px;
-  margin: 0 auto;
-  margin: 20px auto;
-  text-transform: uppercase;
-  font-size: 30px;
-}
-.descrip-dream {
-  display: block;
-  width: 220px;
-  margin: 0 auto;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  margin-bottom: 18px;
-}
-.but-find {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: 14px;
-  display: block;
-  margin: 0 auto;
-  background-color: #de4f51;
-  width: 280px;
-  height: 40px;
-  border-radius: 280px;
-  border: none;
-}
-.title-motto {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: 22px;
-  margin: 80px 0px 35px;
+.block:nth-child(2n) {
+    margin-right: 0;
 }
 
-.partners {
-  width: 280px;
-  height: auto;
-  margin: 0 auto;
-  padding-bottom: 60px;
+p {
+    font-family: 'Playfair Display', serif; 
+    font-weight: normal; 
+    font-style: normal; 
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 40px;
 }
 
-.your-team {
-  width: 220px;
-  height: auto;
-  margin: 0 auto;
-  padding: 0;
-  text-decoration: none;
-  list-style: none;
-  margin: 0 auto;
-}
-.your-team img {
-  display: block;
-  margin: 0 auto;
-}
-.member-team {
-  width: 220px;
-  height: 265px;
+footer {
+    text-align: center;
+    padding: 60px;
 }
 
-.photo {
-  position: relative;
-  width: 120px;
-  height: 120px;
-  margin: 0 auto;
-}
-
-.icon {
-  position: absolute;
-  left: 88px;
-  bottom: 0;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  border-style: solid;
-  border-width: 4px;
-  border-color: rgb(255, 255, 255);
-  z-index: 15;
-}
-
-.icon img {
-  width: 20px;
-  height: 20px;
-  margin: 9px;
-}
-.red-background {
-  background-color: #de4f51;
-}
-
-.yellow-background {
-  background-color: #e9a328;
-}
-
-.sky-background {
-  background-color: #7bd6ae;
-}
-
-.blue-background {
-  background-color: #5b72d7;
-}
-.description-men {
-  color: #666666;
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  font-weight: 300;
-  margin: 0;
-}
-.see-more {
-  display: block;
-  width: 280px;
-  height: 40px;
-  margin: 0 auto;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  color: #de4f51;
-  font-size: 14px;
-  border: 2px solid #de4f51;
-  border-radius: 280px;
-  background-color: #fff;
+.button {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    background-color: transparent;
+    line-height: 1.2;
+    padding: 1rem 2rem;
+    border: 1px solid black;
+    
 }
