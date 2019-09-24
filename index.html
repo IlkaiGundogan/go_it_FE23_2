@@ -1,62 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Домашняя робота 3</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="style.css">
-
-</head>
-<body>
-    <header>
-        <nav class="navigation">
-            <ul class="topmenu">
-                <li>lifestyle</li>
-                <li>photodiary</li>
-                <li>music</li>
-                <li>travel</li>
-            </ul>
-        </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Homework04</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap&subset=cyrillic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="logo clearfix">
+        <a href="/">
+          <img
+            src="img/Layer-41.png"
+            alt="image_logo"
+            width="80"
+            height="23"/>
+        </a>
+      </h1>
+      <nav class="navigation">
+        <ul class="menu_nav clearfix">
+          <li>
+            <a href="#Home">Home</a>
+          </li>
+          <li>
+            <a href="#About">About us</a>
+          </li>
+          <li>
+            <a href="#Page">Page</a>
+          </li>
+          <li>
+            <a href="#Shop">Shop</a>
+          </li>
+          <li>
+            <a href="#Blog">Blog</a>
+          </li>
+          <li>
+            <a href="#Contacts">Contact us</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-    <main class="main-block">
-    <div class="block">
-        <img src="img/music.png" alt="music festival"><h3 class="theme">lifestyle</h3>
-        <h4 class="sign">More than just a music festival</h4> 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis aliquam urna, vitae eleifend neque auctor nec. Mauris a nisl ullamcorper, tristique nisi non, interdum leo.</p>
-    </div>
-    <div class="block">
-         <img src="img/coffee.png" alt="cup of coffee" width="420" height="280"><h3 class="theme">lifestyle</h3>
-        <h4 class="sign">Life tastes better with coffee</h4> 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis aliquam urna, vitae eleifend neque auctor nec. Mauris a nisl ullamcorper, tristique nisi non, interdum leo.</p>
-    </div>
-    <div class="block">
-            <img src="img/dream.png" alt="photo" width="420" height="280"><h3 class="theme">photodiary</h3>
-        <h4 class="sign">American dream</h4> 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis aliquam urna, vitae eleifend neque auctor nec. Mauris a nisl ullamcorper, tristique nisi non, interdum leo.</p>
-    </div>
-        <div class="block">
-            <img src="img/alps.png" alt="girl" width="420" height="280"><h3 class="theme">photodiary</h3>
-        <h4 class="sign">A day exploring the Alps</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis aliquam urna, vitae eleifend neque auctor nec. Mauris a nisl ullamcorper, tristique nisi non, interdum leo.</p>
-    </div>
-    <div class="block">
-            <img src="img/free.png" alt="free" width="420" height="280"><h3 class="theme">lifestyle</h3>
-        <h4 class="sign">Top 10 songs for running</h4> 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis aliquam urna, vitae eleifend neque auctor nec. Mauris a nisl ullamcorper, tristique nisi non, interdum leo.</p>
-    </div>
-    <div class="block">
-            <img src="img/cold_winter.png" alt="winter" width="420" height="280"><h3 class="theme">lifestyle</h3>
-        <h4 class="sign">Cold winter days</h4> 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis aliquam urna, vitae eleifend neque auctor nec. Mauris a nisl ullamcorper, tristique nisi non, interdum leo.</p>
-    </div>
+    <main class="main-content">
+      <section class="shop">
+        <h3>featured products</h3>
+        <ul class="shop-list clearfix">
+          <li class="item">
+            <img src="img/product1.png" alt="Some shoes" width="255" height="280" />
+            <p class="name-item">Blue Tshirt</p>
+            <p class="price-item">$26</p>
+          </li>
+          <li class="item">
+            <img src="img/product2.png" alt="some strup" width="255" height="280"/>
+            <p class="name-item">Woman shirt</p>
+            <p class="price-item">$31</p>
+          </li>
+          <li class="item">
+            <img src="img/product3.png" alt="some hat" width="255" height="280"/>
+            <p class="name-item">Yellow tshirt</p>
+            <p class="price-item">$21</p>
+          </li>
+          <li class="item">
+            <img src="img/product4.png" alt="some bag" width="255" height="280"/>
+            <p class="name-item">Cool lingerie</p>
+            <p class="price-item">$56</p>
+          </li>
+          <li class="item">
+            <img src="img/product5.png" alt="some handbag" width="255" height="280"/>
+            <p class="name-item">Blue tshirt</p>
+            <p class="price-item">$26</p>
+          </li>
+          <li class="item">
+            <img src="img/product6.png" alt="some strup-black" width="255" height="280"/>
+            <p class="name-item">Woman shirt</p>
+            <p class="price-item">$31</p>
+          </li>
+          <li class="item">
+            <img src="img/product7.png" alt="some shoes-brown" width="255" height="280"/>
+            <p class="name-item">Yellow tshirt</p>
+            <p class="price-item">$21</p>
+          </li>
+          <li class="item">
+            <img src="img/product8.png" alt="some glasses" width="255" height="280"/>
+            <p class="name-item">Cool lingerie</p>
+            <p class="price-item">$56</p>
+          </li>
+        </ul>
+      </section>
+      <section class="news">
+        <h3>latest news</h3>
+        <ul class="blog clearfix">
+          <li>
+            <img src="img/ipad-63.png" alt="some navigation" width="350" height="250"/>
+            <p class="news-title">
+              Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenea
+            </p>
+            <p class="read">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Molestiae, id! Doloribus, quas repudiandae. Laborum, nisi!
+            </p>
+            <button class="click" id="Contact">Read More</button>
+          </li>
+          <li>
+            <img src="img/slide1.png" alt="some navigation" width="350" height="250"/>
+            <p class="news-title">
+              Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenea
+            </p>
+            <p class="read">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit,
+              cumque a ullam quisquam facere illum!
+            </p>
+            <button class="click">Read More</button>
+          </li>
+          <li>
+            <img src="img/bus_33.png" alt="some navigation" width="350" height="250"/>
+            <p class="news-title">
+              Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenea
+            </p>
+            <p class="read">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+              provident laboriosam, quidem eum excepturi cum.
+            </p>
+            <button class="click">Read More</button>
+          </li>
+        </ul>
+      </section>
     </main>
-    <footer>
-              <button class="button">Load more</button>
-    </footer>
-
-</body>
+  </body>
 </html>

@@ -1,84 +1,185 @@
+body {
+  color: #4a4c4c;
+  font-family: "Open Sans", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  
+}
+img {
+  display: block;  
+}
 
-header {
-    width: 680px;
-    margin: auto;
-    padding-top: 75px;
+.main-content {
+  width: 1110px;
+  height: auto;;
+  margin: 0 auto;
 }
-.main-block, .navigation {
-    font-size: 0;
-    width: 900px;
-    margin: 0 auto;
+.header {
+  width: 1110px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  padding-top: 40px;
+}
+.logo {
+  float: left;
+}
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+.menu_nav {
+  float: right;
+  list-style: none;
+}
+.menu_nav li {
+  float: left;
+  margin-top: 25px;
 }
 
-h3,h4 {
-    margin: 0;
-    margin-top: 30px;
+.menu_nav li:not(:last-child) {
+  margin-right: 30px;
 }
-.topmenu :hover {
-    color: aqua;
+.menu_nav a {
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 11px;
+  font-weight: bold;
+  color: #000000;
+}
+.menu_nav a:hover {
+  color: #2b9c86;
+}
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
 }
 ul {
-    font-size: 0;
+  padding: 0;
+  margin: 0;
 }
-ul.topmenu li {
-    font-family: 'Playfair Display', serif;  
-    display: inline;
-    margin: 0 auto;
-    font-size: 14px;
-    text-transform: uppercase;
-    
+.shop {
+  padding-bottom: 100px;
 }
-ul.topmenu li:not(:last-child) {
-    margin-right: 120px;
-
+.shop h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
 }
-.theme {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 14px;
-    font-weight: 300;
-    text-transform: uppercase;
-    color: #b4ad9e;
+h3::after {
+  display: block;
+  width: 165px;
+  height: 10px;
+  background-color: #2b9c86;
+  content: "";
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 100px;
 }
-
-.sign {
-    font-family: 'Playfair Display', serif;
-    font-weight: 500;
-    font-size: 30px;
-    color: #626262;
+.shop-list li {
+  float: left;
+  list-style: none;
+  
 }
-
-
-.block {
-    display: inline-block;
-    width: 420px;
-    vertical-align: top;
-    margin-right: 55px;
-    margin-top: 100px;
+.shop-list li:not(:nth-child(4n)) {
+  margin-right: 30px;
 }
-.block:nth-child(2n) {
-    margin-right: 0;
+.item {
+  margin-bottom: 70px;
+  width: 255px;
+  height: 280px;
+  background-color: rgba(218, 228, 250, 0.6);
 }
-
-p {
-    font-family: 'Playfair Display', serif; 
-    font-weight: normal; 
-    font-style: normal; 
-    font-size: 14px;
-    line-height: 24px;
-    margin-top: 40px;
-}
-
-footer {
-    text-align: center;
-    padding: 60px;
+.shop-list p {
+  vertical-align: top;
+  float: left;
+  height: 40px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  line-height: 40px;
+  margin: 0px;
+  padding: 0px;
 }
 
-.button {
-    font-family: 'Playfair Display', serif;
-    font-size: 20px;
-    background-color: transparent;
-    line-height: 1.2;
-    padding: 1rem 2rem;
-    border: 1px solid black;
-    
+
+.shop-list li:hover > .price-item {
+  background-color: #7fdbd4;
+}
+.shop-list li:hover > .name-item {
+  background-color: #2b9c86;
+}
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+.name-item {
+  width: 200px;
+  background-color: #505153;
+}
+
+.price-item {
+  width: 55px;
+  background-color: #b8bbbf;
+}
+.news h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+.blog li {
+  float: left;
+  width: 350px;
+  height: 250px;
+  list-style: none;
+  margin-right: 30px;
+}
+.blog li:last-child {
+  margin-right: 0px;
+}
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+.news-title {
+  font-size: 18px;
+  line-height: 26px;
+  color: #616366;
+  font-weight: 600;
+}
+.news-title::after {
+  display: block;
+  width: 136px;
+  height: 4px;
+  background-color: #2b9c86;
+  content: "";
+  margin-top: 14px;
+}
+.read {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.click {
+  width: 160px;
+  height: 50px;
+  background-color: #2b9c86;
+  margin-bottom: 80px;
+  border: solid #ffffff;
+  border-radius: 7px;
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 16px;
 }
